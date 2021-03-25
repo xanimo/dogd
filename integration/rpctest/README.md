@@ -3,7 +3,7 @@ rpctest
 
 [![Build Status](http://img.shields.io/travis/eager7/dogd.svg)](https://travis-ci.org/eager7/dogd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/xanimo/dogd/integration/rpctest)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/eager7/dogd/integration/rpctest)
 
 Package rpctest provides a btcd-specific RPC testing harness crafting and
 executing integration tests by driving a `btcd` instance via the `RPC`
@@ -20,7 +20,7 @@ systems/integration tests.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/xanimo/dogd/integration/rpctest
+$ go get -u github.com/eager7/dogd/integration/rpctest
 ```
 
 ## License

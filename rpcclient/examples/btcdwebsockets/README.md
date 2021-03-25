@@ -13,7 +13,7 @@ demonstrate clean shutdown.
 The first step is to use `go get` to download and install the rpcclient package:
 
 ```bash
-$ go get github.com/xanimo/dogd/rpcclient
+$ go get github.com/eager7/dogd/rpcclient
 ```
 
 Next, modify the `main.go` source to specify the correct RPC username and
@@ -27,7 +27,7 @@ password for the RPC server:
 Finally, navigate to the example's directory and run it with:
 
 ```bash
-$ cd $GOPATH/src/github.com/xanimo/dogd/rpcclient/examples/btcdwebsockets
+$ cd $GOPATH/src/github.com/eager7/dogd/rpcclient/examples/btcdwebsockets
 $ go run *.go
 ```
 

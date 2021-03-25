@@ -1,4 +1,4 @@
-module github.com/xanimo/dogd
+module github.com/eager7/dogd
 
 go 1.12
 
