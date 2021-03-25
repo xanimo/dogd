@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/eager7/dogd/btcjson"
+	"github.com/xanimo/dogd/btcjson"
 )
 
 // TestUsageFlagStringer tests the stringized output for the UsageFlag type.

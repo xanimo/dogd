@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"github.com/eager7/doglog"
 
-	"github.com/eager7/dogd/database"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/database"
+	"github.com/xanimo/dogd/wire"
 )
 
 var log = doglog.Disabled

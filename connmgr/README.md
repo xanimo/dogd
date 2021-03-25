@@ -3,7 +3,7 @@ connmgr
 
 [![Build Status](http://img.shields.io/travis/eager7/dogd.svg)](https://travis-ci.org/eager7/dogd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/eager7/dogd/connmgr)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/xanimo/dogd/connmgr)
 
 Package connmgr implements a generic Bitcoin network connection manager.
 
@@ -29,7 +29,7 @@ In addition the connection manager provides the following utilities:
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/eager7/dogd/connmgr
+$ go get -u github.com/xanimo/dogd/connmgr
 ```
 
 ## License

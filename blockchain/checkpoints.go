@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/txscript"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/txscript"
 )
 
 // CheckpointConfirmations is the number of blocks before the end of the current

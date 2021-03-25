@@ -11,7 +11,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/wire"
 )
 
 // AddNodeSubCmd defines the type used in the addnode JSON-RPC command for the

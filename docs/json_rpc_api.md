@@ -1074,7 +1074,7 @@ various languages.
 **9.1 Go**
 
 This section provides examples of using the RPC interface using Go and the
-[rpcclient](https://github.com/eager7/dogd/tree/master/rpcclient) package.
+[rpcclient](https://github.com/xanimo/dogd/tree/master/rpcclient) package.
 
 * [Using getblockcount to Retrieve the Current Block Height](#ExampleGetBlockCount)
 * [Using getblock to Retrieve the Genesis Block](#ExampleGetBlock)
@@ -1086,7 +1086,7 @@ This section provides examples of using the RPC interface using Go and the
 **9.1.1 Using getblockcount to Retrieve the Current Block Height**<br />
 
 The following is an example Go application which uses the
-[rpcclient](https://github.com/eager7/dogd/tree/master/rpcclient) package to connect with
+[rpcclient](https://github.com/xanimo/dogd/tree/master/rpcclient) package to connect with
 a btcd instance via Websockets, issues [getblockcount](#getblockcount) to
 retrieve the current block height, and displays it.
 
@@ -1098,7 +1098,7 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/eager7/dogd/rpcclient"
+	"github.com/xanimo/dogd/rpcclient"
 	"github.com/eager7/dogutil"
 )
 
@@ -1148,7 +1148,7 @@ Which results in:
 **9.1.2 Using getblock to Retrieve the Genesis Block**<br />
 
 The following is an example Go application which uses the
-[rpcclient](https://github.com/eager7/dogd/tree/master/rpcclient) package to connect with
+[rpcclient](https://github.com/xanimo/dogd/tree/master/rpcclient) package to connect with
 a btcd instance via Websockets, issues [getblock](#getblock) to retrieve
 information about the Genesis block, and display a few details about it.
 
@@ -1161,8 +1161,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/rpcclient"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/rpcclient"
 	"github.com/eager7/dogutil"
 )
 
@@ -1238,7 +1238,7 @@ Num transactions: 1
 Notifications (Websocket-specific)**<br />
 
 The following is an example Go application which uses the
-[rpcclient](https://github.com/eager7/dogd/tree/master/rpcclient) package to connect with
+[rpcclient](https://github.com/xanimo/dogd/tree/master/rpcclient) package to connect with
 a btcd instance via Websockets and registers for
 [blockconnected](#blockconnected) and [blockdisconnected](#blockdisconnected)
 notifications with [notifyblocks](#notifyblocks).  It also sets up handlers for
@@ -1253,8 +1253,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/rpcclient"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/rpcclient"
 	"github.com/eager7/dogutil"
 )
 

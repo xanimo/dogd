@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/eager7/dogd/btcjson"
+	"github.com/xanimo/dogd/btcjson"
 )
 
 // TestHelpReflectInternals ensures the various help functions which deal with

@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/eager7/dogd/blockchain"
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/database"
-	_ "github.com/eager7/dogd/database/ffldb"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/blockchain"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/database"
+	_ "github.com/xanimo/dogd/database/ffldb"
 )
 
 // This example demonstrates how to create a new chain instance and use

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/wire"
 )
 
 // TestParsePkScript ensures that the supported script types can be parsed

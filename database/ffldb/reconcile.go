@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"hash/crc32"
 
-	"github.com/eager7/dogd/database"
+	"github.com/xanimo/dogd/database"
 )
 
 // The serialized write cursor location format is:

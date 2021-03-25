@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/peer"
-	"github.com/eager7/dogd/wire"
 	"github.com/btcsuite/go-socks/socks"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/peer"
+	"github.com/xanimo/dogd/wire"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface.  It

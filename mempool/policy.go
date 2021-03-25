@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/eager7/dogd/blockchain"
-	"github.com/eager7/dogd/txscript"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/blockchain"
+	"github.com/xanimo/dogd/txscript"
+	"github.com/xanimo/dogd/wire"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
 )
 
 // TestNotFound tests the MsgNotFound API.

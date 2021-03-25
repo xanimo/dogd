@@ -7,11 +7,11 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/database"
-	"github.com/eager7/dogd/txscript"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/database"
+	"github.com/xanimo/dogd/txscript"
+	"github.com/xanimo/dogd/wire"
 )
 
 // txoFlags is a bitmask defining additional information and state for a

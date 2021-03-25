@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/eager7/dogd/btcec"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/btcec"
+	"github.com/xanimo/dogd/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/database"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/database"
 )
 
 // BenchmarkBlockHeader benchmarks how long it takes to load the mainnet genesis

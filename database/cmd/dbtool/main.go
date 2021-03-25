@@ -10,9 +10,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/eager7/dogd/database"
 	"github.com/eager7/doglog"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/xanimo/dogd/database"
 )
 
 const (

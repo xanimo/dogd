@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/eager7/dogd/btcjson"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/btcjson"
+	"github.com/xanimo/dogd/wire"
 )
 
 // TestChainSvrCmds tests all of the chain server commands marshal and unmarshal

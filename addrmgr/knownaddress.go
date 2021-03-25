@@ -7,7 +7,7 @@ package addrmgr
 import (
 	"time"
 
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/wire"
 )
 
 // KnownAddress tracks information about a known network address that is used

@@ -7,13 +7,13 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/eager7/dogd/blockchain"
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/mempool"
-	"github.com/eager7/dogd/netsync"
-	"github.com/eager7/dogd/peer"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/blockchain"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/mempool"
+	"github.com/xanimo/dogd/netsync"
+	"github.com/xanimo/dogd/peer"
+	"github.com/xanimo/dogd/wire"
 )
 
 // rpcPeer provides a peer for use with the RPC server and implements the

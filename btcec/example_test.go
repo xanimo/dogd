@@ -8,8 +8,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/eager7/dogd/btcec"
-	"github.com/eager7/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/btcec"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
 )
 
 // This example demonstrates signing a message with a secp256k1 private key that

@@ -12,15 +12,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/eager7/dogd/blockchain"
-	"github.com/eager7/dogd/blockchain/indexers"
-	"github.com/eager7/dogd/btcjson"
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/mining"
-	"github.com/eager7/dogd/txscript"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/blockchain"
+	"github.com/xanimo/dogd/blockchain/indexers"
+	"github.com/xanimo/dogd/btcjson"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/mining"
+	"github.com/xanimo/dogd/txscript"
+	"github.com/xanimo/dogd/wire"
 )
 
 const (

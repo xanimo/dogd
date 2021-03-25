@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
 )
 
 // makeHeader is a convenience function to make a message header in the form of

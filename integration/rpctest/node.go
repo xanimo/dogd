@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"time"
 
-	rpc "github.com/eager7/dogd/rpcclient"
 	"github.com/eager7/dogutil"
+	rpc "github.com/xanimo/dogd/rpcclient"
 )
 
 // nodeConfig contains all the args, and data required to launch a btcd process

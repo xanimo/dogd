@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/txscript"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/txscript"
 )
 
 const (

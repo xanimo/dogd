@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/eager7/dogd/database"
+	"github.com/xanimo/dogd/database"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

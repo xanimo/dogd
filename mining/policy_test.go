@@ -8,10 +8,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/eager7/dogd/blockchain"
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/blockchain"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/wire"
 )
 
 // newHashFromStr converts the passed big-endian hex string into a

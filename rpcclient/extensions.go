@@ -12,10 +12,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/eager7/dogd/btcjson"
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/btcjson"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/wire"
 )
 
 // FutureDebugLevelResult is a future promise to deliver the result of a

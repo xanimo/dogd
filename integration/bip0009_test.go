@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eager7/dogd/blockchain"
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/integration/rpctest"
+	"github.com/xanimo/dogd/blockchain"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/integration/rpctest"
 )
 
 const (

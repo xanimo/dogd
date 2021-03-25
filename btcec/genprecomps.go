@@ -17,7 +17,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/eager7/dogd/btcec"
+	"github.com/xanimo/dogd/btcec"
 )
 
 func main() {

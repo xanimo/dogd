@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
 )
 
 // defaultTransactionAlloc is the default size used for the backing array

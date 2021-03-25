@@ -7,7 +7,7 @@ package blockchain
 import (
 	"math"
 
-	"github.com/eager7/dogd/chaincfg"
+	"github.com/xanimo/dogd/chaincfg"
 )
 
 const (

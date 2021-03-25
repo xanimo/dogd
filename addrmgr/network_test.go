@@ -8,8 +8,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/eager7/dogd/addrmgr"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/addrmgr"
+	"github.com/xanimo/dogd/wire"
 )
 
 // TestIPTypes ensures the various functions which determine the type of an IP

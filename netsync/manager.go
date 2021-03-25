@@ -12,14 +12,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/eager7/dogd/blockchain"
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/database"
-	"github.com/eager7/dogd/mempool"
-	peerpkg "github.com/eager7/dogd/peer"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/blockchain"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/database"
+	"github.com/xanimo/dogd/mempool"
+	peerpkg "github.com/xanimo/dogd/peer"
+	"github.com/xanimo/dogd/wire"
 )
 
 const (

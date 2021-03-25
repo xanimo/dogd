@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/eager7/dogd/chaincfg"
+	. "github.com/xanimo/dogd/chaincfg"
 )
 
 // Define some of the required parameters for a user-registered

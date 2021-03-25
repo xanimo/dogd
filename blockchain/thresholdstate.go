@@ -7,7 +7,7 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
 )
 
 // ThresholdState define the various threshold states used when voting on

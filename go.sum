@@ -12,7 +12,7 @@ github.com/btcsuite/winsvc v1.0.0 h1:J9B4L7e3oqhXOcm+2IuNApwzQec85lE+QaikUcCs+dk
 github.com/btcsuite/winsvc v1.0.0/go.mod h1:jsenWakMcC0zFBFurPLEAyrnc/teJEM1O46fmI40EZs=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/eager7/dogd v0.0.0-20200427033722-13db756ab6a8/go.mod h1:5IBAcuraCh1ftcUzA8D+RqiPTfip1HmqCpiFA7DV8Y0=
+github.com/xanimo/dogd v0.0.0-20200427033722-13db756ab6a8/go.mod h1:5IBAcuraCh1ftcUzA8D+RqiPTfip1HmqCpiFA7DV8Y0=
 github.com/eager7/doglog v0.0.0-20200426084830-384027fc4565/go.mod h1:bFnpHxKLVu82/oWCKTdMmC7Z79FFMbMJ+ylJQicf7dI=
 github.com/eager7/doglog v0.0.0-20200427040431-a0db59f0a792 h1:YCWgPaQQlUD4NAMLSqnty8DPIBJeX+tp/2qkhIzr4Xo=
 github.com/eager7/doglog v0.0.0-20200427040431-a0db59f0a792/go.mod h1:bFnpHxKLVu82/oWCKTdMmC7Z79FFMbMJ+ylJQicf7dI=

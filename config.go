@@ -20,17 +20,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eager7/dogd/blockchain"
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/connmgr"
-	"github.com/eager7/dogd/database"
-	_ "github.com/eager7/dogd/database/ffldb"
-	"github.com/eager7/dogd/mempool"
-	"github.com/eager7/dogd/peer"
-	"github.com/eager7/dogutil"
 	"github.com/btcsuite/go-socks/socks"
+	"github.com/eager7/dogutil"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/xanimo/dogd/blockchain"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/connmgr"
+	"github.com/xanimo/dogd/database"
+	_ "github.com/xanimo/dogd/database/ffldb"
+	"github.com/xanimo/dogd/mempool"
+	"github.com/xanimo/dogd/peer"
 )
 
 const (

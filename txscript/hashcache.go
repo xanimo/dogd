@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/wire"
 )
 
 // TxSigHashes houses the partial set of sighashes introduced within BIP0143.

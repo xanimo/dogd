@@ -24,10 +24,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/eager7/dogd/btcjson"
-	"github.com/eager7/dogd/chaincfg"
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/btcsuite/websocket"
+	"github.com/xanimo/dogd/btcjson"
+	"github.com/xanimo/dogd/chaincfg"
 )
 
 var (

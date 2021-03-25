@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/wire"
 )
 
 // These variables are the chain proof-of-work limit parameters for each default
@@ -236,11 +236,11 @@ var MainNetParams = Params{
 	},
 
 	// Chain parameters
-	GenesisBlock:             &genesisBlock,
-	GenesisHash:              &genesisHash,
-	PowLimit:                 mainPowLimit,
-	PowLimitBits:             0x1d00ffff,
-	BIP0034Height:            1034383, // 000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8
+	GenesisBlock:  &genesisBlock,
+	GenesisHash:   &genesisHash,
+	PowLimit:      mainPowLimit,
+	PowLimitBits:  0x1d00ffff,
+	BIP0034Height: 1034383, // 000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8
 	//BIP0065Height:            1032483, // 000000000000000004c2b624ed5d7756c508d90fd0da2c7c679febfa6c4735f0
 	BIP0066Height:            1034383, // 00000000000000000379eaa19dce8c9b722d46ae6a57c2f1a988119488b50931
 	CoinbaseMaturity:         100,
@@ -273,7 +273,7 @@ var MainNetParams = Params{
 	//
 	// The miner confirmation window is defined as:
 	//   target proof of work timespan / target proof of work spacing
-	RuleChangeActivationThreshold: 9576, // 95% of MinerConfirmationWindow
+	RuleChangeActivationThreshold: 9576,  // 95% of MinerConfirmationWindow
 	MinerConfirmationWindow:       10080, //
 	Deployments: [DefinedDeployments]ConsensusDeployment{
 		DeploymentTestDummy: {
@@ -289,7 +289,7 @@ var MainNetParams = Params{
 		DeploymentSegwit: {
 			BitNumber:  1,
 			StartTime:  1479168000, // November 15, 2016 UTC
-			ExpireTime: 0, // November 15, 2017 UTC.
+			ExpireTime: 0,          // November 15, 2017 UTC.
 		},
 	},
 
@@ -409,7 +409,7 @@ var TestNet3Params = Params{
 	GenesisHash:              &testNet3GenesisHash,
 	PowLimit:                 testNet3PowLimit,
 	PowLimitBits:             0x1d00ffff,
-	BIP0034Height:            708658,  // 0000000023b3a96d3484e5abb3755c413e7d41500f8e2a5c3f0dd01299cd8ef8
+	BIP0034Height:            708658, // 0000000023b3a96d3484e5abb3755c413e7d41500f8e2a5c3f0dd01299cd8ef8
 	BIP0065Height:            581885, // 00000000007f6655f22f98e72ed80d8b06dc761d5da09df0fa1dc4be4f861eb6
 	BIP0066Height:            708658, // 000000002104c8c45e99a8853285a3b592602a3ccde2b832481da85e9e4ba182
 	CoinbaseMaturity:         100,

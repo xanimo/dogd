@@ -15,9 +15,9 @@ import (
 	"runtime/debug"
 	"runtime/pprof"
 
-	"github.com/eager7/dogd/blockchain/indexers"
-	"github.com/eager7/dogd/database"
-	"github.com/eager7/dogd/limits"
+	"github.com/xanimo/dogd/blockchain/indexers"
+	"github.com/xanimo/dogd/database"
+	"github.com/xanimo/dogd/limits"
 )
 
 const (

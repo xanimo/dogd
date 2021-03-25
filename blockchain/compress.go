@@ -5,8 +5,8 @@
 package blockchain
 
 import (
-	"github.com/eager7/dogd/btcec"
-	"github.com/eager7/dogd/txscript"
+	"github.com/xanimo/dogd/btcec"
+	"github.com/xanimo/dogd/txscript"
 )
 
 // -----------------------------------------------------------------------------

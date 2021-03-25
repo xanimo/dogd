@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/mining"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/mining"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model

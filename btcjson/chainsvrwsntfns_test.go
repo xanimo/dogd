@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/eager7/dogd/btcjson"
+	"github.com/xanimo/dogd/btcjson"
 )
 
 // TestChainSvrWsNtfns tests all of the chain server websocket-specific

@@ -8,8 +8,8 @@
 package database
 
 import (
-	"github.com/eager7/dogd/chaincfg/chainhash"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
 )
 
 // Cursor represents a cursor over key/value pairs and nested buckets of a

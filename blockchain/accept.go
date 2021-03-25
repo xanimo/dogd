@@ -7,8 +7,8 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/eager7/dogd/database"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/database"
 )
 
 // maybeAcceptBlock potentially accepts a block into the block chain and, if

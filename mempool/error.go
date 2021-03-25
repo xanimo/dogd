@@ -5,8 +5,8 @@
 package mempool
 
 import (
-	"github.com/eager7/dogd/blockchain"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/blockchain"
+	"github.com/xanimo/dogd/wire"
 )
 
 // RuleError identifies a rule violation.  It is used to indicate that

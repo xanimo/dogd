@@ -7,8 +7,8 @@ package txscript
 import (
 	"testing"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/wire"
 )
 
 // TestBadPC sets the pc to a deliberately bad result then confirms that Step()

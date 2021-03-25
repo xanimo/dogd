@@ -14,13 +14,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/database"
-	_ "github.com/eager7/dogd/database/ffldb"
-	"github.com/eager7/dogd/txscript"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/database"
+	_ "github.com/xanimo/dogd/database/ffldb"
+	"github.com/xanimo/dogd/txscript"
+	"github.com/xanimo/dogd/wire"
 )
 
 const (

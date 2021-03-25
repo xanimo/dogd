@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/eager7/dogd/btcjson"
+	"github.com/xanimo/dogd/btcjson"
 )
 
 // helpDescsEnUS defines the English descriptions used for the help strings.

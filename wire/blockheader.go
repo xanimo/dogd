@@ -9,7 +9,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
 )
 
 // MaxBlockHeaderPayload is the maximum number of bytes a block header can be.

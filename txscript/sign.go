@@ -8,10 +8,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/eager7/dogd/btcec"
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/btcec"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/wire"
 )
 
 // RawTxInWitnessSignature returns the serialized ECDA signature for the input

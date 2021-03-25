@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/eager7/dogd/btcjson"
+	"github.com/xanimo/dogd/btcjson"
 )
 
 // FutureRawResult is a future promise to deliver the result of a RawRequest RPC

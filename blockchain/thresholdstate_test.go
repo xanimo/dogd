@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
 )
 
 // TestThresholdStateStringer tests the stringized output for the

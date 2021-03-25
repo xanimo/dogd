@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/eager7/dogd/database"
-	_ "github.com/eager7/dogd/database/ffldb"
+	"github.com/xanimo/dogd/database"
+	_ "github.com/xanimo/dogd/database/ffldb"
 )
 
 var (

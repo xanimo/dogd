@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/wire"
 )
 
 // mruInventoryMap provides a concurrency safe map that is limited to a maximum

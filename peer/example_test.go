@@ -10,9 +10,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/peer"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/peer"
+	"github.com/xanimo/dogd/wire"
 )
 
 // mockRemotePeer creates a basic inbound peer listening on the simnet port for

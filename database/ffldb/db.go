@@ -14,11 +14,6 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/database"
-	"github.com/eager7/dogd/database/internal/treap"
-	"github.com/eager7/dogd/wire"
-	"github.com/eager7/dogutil"
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/comparer"
 	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
@@ -26,6 +21,11 @@ import (
 	"github.com/btcsuite/goleveldb/leveldb/iterator"
 	"github.com/btcsuite/goleveldb/leveldb/opt"
 	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/database"
+	"github.com/xanimo/dogd/database/internal/treap"
+	"github.com/xanimo/dogd/wire"
 )
 
 const (

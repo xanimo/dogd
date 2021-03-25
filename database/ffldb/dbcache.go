@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eager7/dogd/database/internal/treap"
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/iterator"
 	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/xanimo/dogd/database/internal/treap"
 )
 
 const (

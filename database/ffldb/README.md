@@ -3,7 +3,7 @@ ffldb
 
 [![Build Status](https://travis-ci.org/eager7/dogd.png?branch=master)](https://travis-ci.org/eager7/dogd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/eager7/dogd/database/ffldb?status.png)](http://godoc.org/github.com/eager7/dogd/database/ffldb)
+[![GoDoc](https://godoc.org/github.com/xanimo/dogd/database/ffldb?status.png)](http://godoc.org/github.com/xanimo/dogd/database/ffldb)
 =======
 
 Package ffldb implements a driver for the database package that uses leveldb for

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eager7/dogd/addrmgr"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/addrmgr"
+	"github.com/xanimo/dogd/wire"
 )
 
 func TestChance(t *testing.T) {

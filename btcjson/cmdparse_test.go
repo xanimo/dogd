@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/eager7/dogd/btcjson"
+	"github.com/xanimo/dogd/btcjson"
 )
 
 // TestAssignField tests the assignField function handles supported combinations

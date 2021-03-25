@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/eager7/dogd/rpcclient"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/rpcclient"
+	"github.com/xanimo/dogd/wire"
 )
 
 func main() {

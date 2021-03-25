@@ -10,8 +10,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/eager7/dogd/btcjson"
 	"github.com/btcsuite/go-socks/socks"
+	"github.com/xanimo/dogd/btcjson"
 )
 
 // newHTTPClient returns a new HTTP client that is configured according to the

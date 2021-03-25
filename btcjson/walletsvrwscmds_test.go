@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/eager7/dogd/btcjson"
+	"github.com/xanimo/dogd/btcjson"
 )
 
 // TestWalletSvrWsCmds tests all of the wallet server websocket-specific

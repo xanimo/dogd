@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/database"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/database"
 )
 
 // blockRegionCmd defines the configuration options for the fetchblockregion

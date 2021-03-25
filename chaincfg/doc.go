@@ -26,7 +26,7 @@
 //          "log"
 //
 //          "github.com/eager7/dogutil"
-//          "github.com/eager7/dogd/chaincfg"
+//          "github.com/xanimo/dogd/chaincfg"
 //  )
 //
 //  var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

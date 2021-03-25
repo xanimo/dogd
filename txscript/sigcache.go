@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/eager7/dogd/btcec"
-	"github.com/eager7/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/btcec"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
 )
 
 // sigCacheEntry represents an entry in the SigCache. Entries within the

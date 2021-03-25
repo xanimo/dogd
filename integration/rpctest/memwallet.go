@@ -10,15 +10,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/eager7/dogd/blockchain"
-	"github.com/eager7/dogd/btcec"
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/rpcclient"
-	"github.com/eager7/dogd/txscript"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
 	"github.com/eager7/dogutil/hdkeychain"
+	"github.com/xanimo/dogd/blockchain"
+	"github.com/xanimo/dogd/btcec"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/rpcclient"
+	"github.com/xanimo/dogd/txscript"
+	"github.com/xanimo/dogd/wire"
 )
 
 var (

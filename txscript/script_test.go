@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/wire"
 )
 
 // TestParseOpcode tests for opcode parsing with bad data templates.

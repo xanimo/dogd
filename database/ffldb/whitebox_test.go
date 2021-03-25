@@ -17,12 +17,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/database"
-	"github.com/eager7/dogd/wire"
-	"github.com/eager7/dogutil"
 	"github.com/btcsuite/goleveldb/leveldb"
 	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
+	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/database"
+	"github.com/xanimo/dogd/wire"
 )
 
 var (

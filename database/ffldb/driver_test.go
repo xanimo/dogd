@@ -12,10 +12,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/database"
-	"github.com/eager7/dogd/database/ffldb"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/database"
+	"github.com/xanimo/dogd/database/ffldb"
 )
 
 // dbType is the database type name for this driver.

@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/rpcclient"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/rpcclient"
 )
 
 // JoinType is an enum representing a particular type of "node join". A node

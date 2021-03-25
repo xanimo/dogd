@@ -7,8 +7,8 @@ package chaincfg
 import (
 	"time"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/wire"
 )
 
 // genesisCoinbaseTx is the coinbase transaction for the genesis blocks for

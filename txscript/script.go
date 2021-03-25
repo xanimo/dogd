@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/wire"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/wire"
 )
 
 // Bip16Activation is the timestamp where BIP0016 is valid to use in the

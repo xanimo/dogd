@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/wire"
 )
 
 // scriptTestName returns a descriptive test name for the given reference script

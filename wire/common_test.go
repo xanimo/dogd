@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
 )
 
 // mainNetGenesisHash is the hash of the first block in the block chain for the

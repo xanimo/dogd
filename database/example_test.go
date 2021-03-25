@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/eager7/dogd/chaincfg"
-	"github.com/eager7/dogd/database"
-	_ "github.com/eager7/dogd/database/ffldb"
-	"github.com/eager7/dogd/wire"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg"
+	"github.com/xanimo/dogd/database"
+	_ "github.com/xanimo/dogd/database/ffldb"
+	"github.com/xanimo/dogd/wire"
 )
 
 // This example demonstrates creating a new database.
@@ -22,8 +22,8 @@ func ExampleCreate() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/eager7/dogd/database"
-	// 	_ "github.com/eager7/dogd/database/ffldb"
+	// 	"github.com/xanimo/dogd/database"
+	// 	_ "github.com/xanimo/dogd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -48,8 +48,8 @@ func Example_basicUsage() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/eager7/dogd/database"
-	// 	_ "github.com/eager7/dogd/database/ffldb"
+	// 	"github.com/xanimo/dogd/database"
+	// 	_ "github.com/xanimo/dogd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -114,8 +114,8 @@ func Example_blockStorageAndRetrieval() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/eager7/dogd/database"
-	// 	_ "github.com/eager7/dogd/database/ffldb"
+	// 	"github.com/xanimo/dogd/database"
+	// 	_ "github.com/xanimo/dogd/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.

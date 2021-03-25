@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
 )
 
 // FilterType is used to represent a filter type.

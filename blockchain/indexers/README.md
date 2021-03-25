@@ -3,7 +3,7 @@ indexers
 
 [![Build Status](https://travis-ci.org/eager7/dogd.png?branch=master)](https://travis-ci.org/eager7/dogd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/eager7/dogd/blockchain/indexers?status.png)](http://godoc.org/github.com/eager7/dogd/blockchain/indexers)
+[![GoDoc](https://godoc.org/github.com/xanimo/dogd/blockchain/indexers?status.png)](http://godoc.org/github.com/xanimo/dogd/blockchain/indexers)
 
 Package indexers implements optional block chain indexes.
 
@@ -23,7 +23,7 @@ via an RPC interface.
 ## Installation
 
 ```bash
-$ go get -u github.com/eager7/dogd/blockchain/indexers
+$ go get -u github.com/xanimo/dogd/blockchain/indexers
 ```
 
 ## License

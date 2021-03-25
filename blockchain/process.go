@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/eager7/dogd/chaincfg/chainhash"
-	"github.com/eager7/dogd/database"
 	"github.com/eager7/dogutil"
+	"github.com/xanimo/dogd/chaincfg/chainhash"
+	"github.com/xanimo/dogd/database"
 )
 
 // BehaviorFlags is a bitmask defining tweaks to the normal behavior when

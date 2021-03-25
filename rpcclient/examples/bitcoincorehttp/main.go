@@ -7,7 +7,7 @@ package main
 import (
 	"log"
 
-	"github.com/eager7/dogd/rpcclient"
+	"github.com/xanimo/dogd/rpcclient"
 )
 
 func main() {

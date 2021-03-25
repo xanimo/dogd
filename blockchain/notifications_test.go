@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/eager7/dogd/chaincfg"
+	"github.com/xanimo/dogd/chaincfg"
 )
 
 // TestNotifications ensures that notification callbacks are fired on events.
