@@ -85,8 +85,7 @@ the following constants:
 
 	wire.MainNet
 	wire.TestNet  (Regression test network)
-	wire.TestNet3 (Test network version 3)
-	wire.SigNet   (Signet, default)
+	wire.TestNet3 (Dogecoin test network)
 	wire.SimNet   (Simulation test network)
 
 # Determining Message Type

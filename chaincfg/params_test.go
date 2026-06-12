@@ -6,12 +6,8 @@ package chaincfg
 
 import (
 	"bytes"
-	"encoding/hex"
 	"math/big"
 	"testing"
-
-	"github.com/btcsuite/btcd/wire/v2"
-	"github.com/stretchr/testify/require"
 )
 
 // TestInvalidHashStr ensures the newShaHashFromStr function panics when used to
@@ -90,28 +86,6 @@ func TestInvalidHDKeyID(t *testing.T) {
 	}
 }
 
-func TestSigNetPowLimit(t *testing.T) {
-	sigNetPowLimitHex, _ := hex.DecodeString(
-		"00000377ae000000000000000000000000000000000000000000000000000000",
-	)
-	powLimit := new(big.Int).SetBytes(sigNetPowLimitHex)
-	if sigNetPowLimit.Cmp(powLimit) != 0 {
-		t.Fatalf("Signet PoW limit bits (%s) not equal to big int (%s)",
-			sigNetPowLimit.Text(16), powLimit.Text(16))
-	}
-
-	if compactToBig(sigNetGenesisBlock.Header.Bits).Cmp(powLimit) != 0 {
-		t.Fatalf("Signet PoW limit header bits (%d) not equal to big "+
-			"int (%s)", sigNetGenesisBlock.Header.Bits,
-			powLimit.Text(16))
-	}
-}
-
-// TestSigNetMagic makes sure that the default signet has the expected bitcoin
-// network magic.
-func TestSigNetMagic(t *testing.T) {
-	require.Equal(t, wire.SigNet, SigNetParams.Net)
-}
 
 // compactToBig is a copy of the blockchain.CompactToBig function. We copy it
 // here so we don't run into a circular dependency just because of a test.

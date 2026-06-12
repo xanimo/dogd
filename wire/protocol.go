@@ -176,21 +176,14 @@ type BitcoinNet uint32
 // this package does not provide that functionality since it's generally a
 // better idea to simply disconnect clients that are misbehaving over TCP.
 const (
-	// MainNet represents the main bitcoin network.
-	MainNet BitcoinNet = 0xd9b4bef9
+	// MainNet represents the main Dogecoin network.
+	MainNet BitcoinNet = 0xc0c0c0c0
 
 	// TestNet represents the regression test network.
 	TestNet BitcoinNet = 0xdab5bffa
 
-	// TestNet3 represents the test network (version 3).
-	TestNet3 BitcoinNet = 0x0709110b
-
-	// TestNet4 represents the test network (version 4).
-	TestNet4 BitcoinNet = 0x283f161c
-
-	// SigNet represents the public default SigNet. For custom signets,
-	// see CustomSignetParams.
-	SigNet BitcoinNet = 0x40CF030A
+	// TestNet3 represents the Dogecoin test network.
+	TestNet3 BitcoinNet = 0xdcb7c1fc
 
 	// SimNet represents the simulation test network.
 	SimNet BitcoinNet = 0x12141c16
@@ -202,8 +195,6 @@ var bnStrings = map[BitcoinNet]string{
 	MainNet:  "MainNet",
 	TestNet:  "TestNet",
 	TestNet3: "TestNet3",
-	TestNet4: "TestNet4",
-	SigNet:   "SigNet",
 	SimNet:   "SimNet",
 }
 

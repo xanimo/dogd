@@ -48,26 +48,11 @@ var testNet3Params = params{
 	rpcPort: "18334",
 }
 
-// testNet4Params contains parameters specific to the test network (version 4)
-// (wire.TestNet4).  NOTE: The RPC port is intentionally different from the
-// reference implementation - see the mainNetParams comment for details.
-var testNet4Params = params{
-	Params:  &chaincfg.TestNet4Params,
-	rpcPort: "48334",
-}
-
 // simNetParams contains parameters specific to the simulation test network
 // (wire.SimNet).
 var simNetParams = params{
 	Params:  &chaincfg.SimNetParams,
 	rpcPort: "18556",
-}
-
-// sigNetParams contains parameters specific to the Signet network
-// (wire.SigNet).
-var sigNetParams = params{
-	Params:  &chaincfg.SigNetParams,
-	rpcPort: "38332",
 }
 
 // netName returns the name used when referring to a bitcoin network.  At the
